@@ -1,0 +1,30 @@
+.box {
+  width: 120px;
+  background-color: black;
+  border: white;
+}
+.light {
+  border-radius: 50%;
+  border: solid;
+  border-color: white;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  opacity: 0.2;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+.active {
+  opacity: 1;
+}
