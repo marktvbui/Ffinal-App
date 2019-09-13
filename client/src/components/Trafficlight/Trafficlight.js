@@ -6,15 +6,13 @@ class Trafficlight extends React.Component {
     super(props);
     this.addActiveClass = this.addActiveClass.bind(this);
     this.state = {
-      active: false
+      light: "red"
     };
   }
 
-  addActiveClass() {
-    const currentState = this.state.active;
-    console.log(currentState);
+  addActiveClass(light) {
     this.setState({
-      active: true
+      light: light
     });
   }
 
@@ -24,10 +22,9 @@ class Trafficlight extends React.Component {
       <div className="box">
         {lights.map((light, index) => (
           <div
-            className={this.state.active === true ? "light active" : "light"}
-            id={light}
+            className={`light ${this.state.light === light ? light : null}`}
             key={index}
-            onClick={() => this.addActiveClass()}
+            onClick={() => this.addActiveClass(light)}
           ></div>
         ))}
       </div>
