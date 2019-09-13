@@ -11,7 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello React</h1>
       </header>
-      <h2>It is {new Date().toLocaleTimeString()}.</h2>
+      <h2>Last updated: {new Date().toLocaleTimeString()}.</h2>
       <Router>
         <Switch>
           <Route exact path="/trafficlight" component={Trafficlight} />

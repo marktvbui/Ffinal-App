@@ -22,7 +22,7 @@ class Trafficlight extends React.Component {
       <div className="box">
         {lights.map((light, index) => (
           <div
-            className={`light ${this.state.light === light ? light : null}`}
+            className={`light ${this.state.light === light ? light : ""}`}
             key={index}
             onClick={() => this.addActiveClass(light)}
           ></div>
