@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    min-height: 8vh;
+    line-height: 8vh;
+    background-color: aqua;
+}
+
+.brandName {
+    float: left;
+    margin-left: 8%;
+    font-size: 24px;
+    color: black;
+}
+
+.navLinks {
+    float: right;
+    margin-right: 4%;
+}
+
+.navLinks a:not(:last-child) {
+    margin-right: 8px;
+}

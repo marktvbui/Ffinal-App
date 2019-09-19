@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "../Home/Home";
+import Home from "../../pages/Home/Home";
 import Trafficlight from "../Trafficlight/Trafficlight";
 import Test from "../../pages/test/Test";
 

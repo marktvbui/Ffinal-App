@@ -1,12 +1,15 @@
 import React from "react";
 import Trafficlight from "../../components/Trafficlight/Trafficlight";
-import Home from "../../components/Home/Home";
+import Header from "../../components/Header/Header";
+import Foot from "../../components/Footer/Footer";
+import "./test.css";
 
 const Test = () => {
   return (
     <div className="test">
-      <Home></Home>
+      <Header></Header>
       <Trafficlight></Trafficlight>
+      <Foot></Foot>
     </div>
   );
 };

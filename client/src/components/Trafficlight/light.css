@@ -1,12 +1,27 @@
+.outterBox {
+  background-image: url("https://media0.giphy.com/media/l0MYzA5czu7GV1Xt6/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 8vh;
+  bottom: 8vh;
+  width: 100%;
+}
+
 .box {
   width: 120px;
   background-color: black;
   border: white;
+  margin: auto;
+  border: solid;
+  border-color: grey;
+  top: 16%;
 }
+
 .light {
   border-radius: 50%;
   border: solid;
-  border-color: white;
+  border-color: gray;
   height: 100px;
   width: 100px;
   margin: auto;
@@ -15,9 +30,11 @@
 .red {
   background-color: red;
 }
+
 .yellow {
   background-color: yellow;
 }
+
 .green {
   background-color: green;
 }

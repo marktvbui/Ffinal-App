@@ -19,14 +19,16 @@ class Trafficlight extends React.Component {
   render() {
     var lights = ["red", "yellow", "green"];
     return (
-      <div className="box">
-        {lights.map((light, index) => (
-          <div
-            className={`light ${this.state.light === light ? light : ""}`}
-            key={index}
-            onClick={() => this.addActiveClass(light)}
-          ></div>
-        ))}
+      <div className="outterBox">
+        <div className="box">
+          {lights.map((light, index) => (
+            <div
+              className={`light ${this.state.light === light ? light : ""}`}
+              key={index}
+              onClick={() => this.addActiveClass(light)}
+            ></div>
+          ))}
+        </div>
       </div>
     );
   }

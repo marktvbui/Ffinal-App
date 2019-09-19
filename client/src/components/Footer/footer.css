@@ -1,0 +1,9 @@
+.cardFooter {
+    background-color: aqua;
+    text-align: center;
+    position: fixed;
+    min-height: 8vh;
+    line-height: 8vh;
+    bottom: 0 !important;
+    width: 100%;
+}

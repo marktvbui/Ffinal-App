@@ -1,11 +1,12 @@
 import React from "react";
 import logo from "../../logo.svg";
 import "../../App.css";
+import "./hello.css";
 
-const Home = () => {
+const Hello = () => {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="helloApp">
+      <header className="helloHeader">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>hello react</h1>
       </header>
@@ -13,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hello;
